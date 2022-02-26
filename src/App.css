@@ -1,0 +1,66 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+/* *,*::before,*::after{box-sizing:border-box}*{margin:0}html,body{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate} */
+body{
+    margin:0%
+}
+.AboutDogs ,body{
+    background-color: #c7a17a;
+    text-align: center;
+    box-sizing: border-box;
+}
+.AboutDogs header{
+    font-size: 2rem;
+    vertical-align: middle;
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+    background-color: #c7a17a;
+    box-sizing: border-box;
+    margin: 0;
+}
+.AboutDogs header h1{
+    margin: 0;
+}
+.AboutDogs img {
+    border-radius: 20%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.AboutDogs button {
+    border-radius: 20%;
+    font-size: 1rem;
+}
+/* img.DogsImage { 
+    height:30rem;
+    width:80%;
+}*/
+div.text {
+    box-sizing: border-box;
+    border: #000 solid 1px;
+    font-size: 0.8rem;
+    font-family: cursive;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    padding: 1%;
+    text-align: left;
+}
+p#ref {
+    text-align: right;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 10% 1% 10%;
+}
+/* object-fit: cover; を使うより多少潰れるけど中央でトリミングされないようにした */
+.images img{
+    width: 25%;
+    height:300px;
+    align-items: center;
+}

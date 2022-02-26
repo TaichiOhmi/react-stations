@@ -1,7 +1,9 @@
 // DO NOT DELETE
 
-import * as React from 'react'
+import React from 'react'
 import './App.css'
+import Header from './Header'
+import Description from'./Description'
 
 /**
  * 
@@ -9,8 +11,9 @@ import './App.css'
  */
 export const App = () => {
   return (
-    <div>
-      <h2>Hello, world!</h2>
+    <div className='AboutDogs'>
+      <Header />
+      <Description />
     </div>
   )
 }
